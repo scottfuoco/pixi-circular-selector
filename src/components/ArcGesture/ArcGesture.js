@@ -373,13 +373,13 @@ selectComplete = () => {
 
     return (
       <div
-        className={styles.canvas}
+        className='canvas'
         style={{
           position: 'fixed',
           top: '50%',
           left: '50%',
           transformOrigin: '0 0 0',
-          transform: 'scale(.5) translate(-50%, -50%) '}}
+          transform: 'scale(.27) translate(-50%, -50%) '}}
         ref={(component) => {this.gameCanvas = component}} />
     );
   }

@@ -31,10 +31,10 @@ class App extends Component {
       <div className='SVGContainer'>
         {
           this.state.complete ?
-          <h1>Animation Complete</h1> :
+          <h1 style={{textAlign:"center"}}>Animation Complete</h1> :
           <div>
-            <h1>Progress {Math.floor(this.state.progress)}%</h1>
-            <h2>
+            <h1 style={{textAlign:"center"}}>Progress {Math.floor(this.state.progress)}%</h1>
+            <h2 style={{textAlign:"center"}}>
             Active Dot 
             { this.state.activeDot === 0 ? ' Top' :
               this.state.activeDot === 1 ? ' Bottom' :
